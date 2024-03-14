@@ -131,8 +131,13 @@ header nav form button img{
   header nav .navToolbar{
     display: block;
   }
+  header nav .navToolbar button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+  }
   header nav .navToolbar img{
     width: 6cqmin;
+    min-width: 20px;
   }
   header nav form{
     width: 50vw;
