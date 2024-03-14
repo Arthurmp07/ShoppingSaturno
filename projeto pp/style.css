@@ -43,7 +43,7 @@ header .headerBanner .headerBannerImg img{
 header nav{
   padding: 0 3cqmin;
   height:6vh;
-  min-height: 30px;
+  min-height: 31px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -109,6 +109,14 @@ header nav form button:hover{
 header nav .navToolbar{
   display: none;
 }
+header nav .navToolbarScreen{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin-left: -3cqmin;
+  position: absolute;
+  background-color: green;
+}
 header nav form button img{
   display: none;
 }
@@ -156,7 +164,6 @@ header nav form button img{
   header nav form button img{
     display: block;
     width: 4cqmin;
-    opacity: 75%;
   }
 }
 @media (max-width:250px){
