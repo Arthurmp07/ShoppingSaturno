@@ -41,16 +41,19 @@ header .headerBanner .headerBannerImg img{
 
 /* nav */
 header nav{
-  padding: 0 3cqmin;
   height:6vh;
   min-height: 31px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 4vw;
   background-color: rgba(0, 0, 0, 0.51);
   color: white;
   backdrop-filter: blur(2px);
+}
+header nav .navMargin{
+  height:6vh;
+  min-height: 31px;
+  padding: 0 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 header nav .navTitles{
   width: 40vw;
@@ -110,12 +113,34 @@ header nav .navToolbar{
   display: none;
 }
 header nav .navToolbarScreen{
+  display: none;
+  position:absolute;
+  top: -24vh;
+  left: 0;
   width: 100vw;
   height: 100vh;
+  background-image: url(img/back_header.jpeg);
+}
+header nav .navToolbarScreen div{
+  background-color: rgba(0, 0, 0, 0.51);
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
   display: flex;
-  margin-left: -3cqmin;
-  position: absolute;
-  background-color: green;
+  align-items: center;
+  justify-content: center;
+}
+header nav .navToolbarScreen div button{
+  position: relative;
+  top: -30vh;
+}
+header nav .navToolbarScreen div span{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 50vh;
+  font-size: 5vh;
 }
 header nav form button img{
   display: none;
