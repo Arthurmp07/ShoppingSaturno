@@ -18,7 +18,7 @@ nav, .navLinks{
     width: 100vw;  
 }
 header, nav{
-    backdrop-filter: blur(2px);    
+    backdrop-filter: blur(px);    
 }
 header a, .navToolbarBtn, .navToolbarBtnBack{
     background-size: 100%;
