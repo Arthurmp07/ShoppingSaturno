@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Nav General Styles */
+header, nav, .navLinks, .navSearchForm, .navSearchSubmit{
+    display: flex;
+    align-items: center;
+}
+header, .navSearchForm, .navSearchSubmit{
+    justify-content: center;
+}
+nav, .navLinks{
+    justify-content: space-between;
+}
+.backgroundHeaderNav , header, nav{
+    width: 100vw;  
+}
+header, nav{
+    backdrop-filter: blur(2px);    
+}
+header a, .navToolbarBtn, .navToolbarBtnBack{
+    background-size: 100%;
+    aspect-ratio: 1/1;
+}
+nav{
+    font-size: 2vh;
+}
+.navToolbarBtn, .navToolbarBtnBack{
+    display: none;
+}
+.navSearchInput, .navSearchSubmit, .navToolbarBtn{
+    border: none; 
+    height: 3vh;
+}
+/* Header Nav General Styles - End */
+
+/* Header Style */
+.backgroundHeaderNav{
+    background-image: url(../headerNavImg/back_header.jpeg);
+    height: 30vh;
+    display: block;
+}
+header{
+    height: 25vh;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+header a{
+    background-image: url(../headerNavImg/Logo\ -\ Saturno.png);
+    background-position: center;
+    width: 30vh;
+}
+/* Header Style - End */
+
+/* Nav Style */
+nav{
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+nav .navLinks{
+    width: 40vw;
+    margin-left: 4cqmin;
+}
+nav .navLinks a{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    margin-right: 2vw;
+}
+nav .navSearch{
+    margin-right: 4cqmin;
+}
+nav .navSearch .navSearchInput{
+    width: 10vw;
+    border-radius: 10px  0 0 10px;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding: 0 1.5cqmin;
+}
+nav .navSearch  .navSearchSubmit{
+    width: 2vw;
+    border-radius: 0  10px 10px 0;
+    background-color: rgb(70, 173, 70);
+    min-width: 30px;
+    background-image: url(../headerNavImg/Search.png);
+    background-size: 2.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Nav Style - End */
+
+/* Nav Interaction styles */
+nav .navSearch .navSearchInput:focus{
+    outline: 0;
+    border: solid 3px rgb(70, 173, 70);
+    width: 15vw;
+}
+nav .navLinks a:hover{
+    color: rgb(255, 255, 255);
+    outline: solid 1px rgb(70, 173, 70);
+    border-radius: 5px;
+}
+nav .navToolbarBtn:hover{
+    background-color: rgba(70, 173, 70, 0.459);
+}
+/* Nav Interaction styles - End */
+
+/* Header Nav Default Style */
+nav .navToolbarBtn{
+    height: 4vh;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../headerNavImg/Toolbar\ -\ Light.png);
+    border-radius: 30px;
+    margin-left: 4cqmin;
+}
+.navToolbarBtnBack{
+    width:15vw;
+    position: absolute;
+    top: 5cqmin;
+    left: 5cqmin;
+    border: none;
+    background-image: url(../headerNavImg/Back.png);
+    background-color: rgba(255, 255, 255, 0);
+}
+/* Header Nav Default Style - End */
+
+@media (max-width:700px){
+/* Header Nav Mobile Style / Hidden Items */
+    nav .navLinks{
+        display: none;
+    }
+/* Header Nav Mobile Style / Hidden Items - End */
+
+/* Header Nav Mobile Style / Show Items */
+nav .navToolbarBtn{
+    display: block;
+}
+/* Header Nav Mobile Style / Show Items - End */
+
+/* Header Nav Mobile Style */
+nav .navSearch .navSearchInput{
+    width: 40vw;
+}
+nav .navSearch .navSearchInput:focus{
+    width: 50vw;
+}
+.backgroundNavMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Header Nav Mobile Style - End */
+}
