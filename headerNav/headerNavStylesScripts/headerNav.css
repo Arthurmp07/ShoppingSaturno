@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -8,7 +10,7 @@ header, nav, .navLinks, .navSearchForm, .navSearchSubmit{
     display: flex;
     align-items: center;
 }
-header, .navSearchForm, .navSearchSubmit{
+.navSearchForm, .navSearchSubmit{
     justify-content: center;
 }
 nav, .navLinks{
@@ -30,7 +32,11 @@ nav{
 .navToolbarBtn, .navToolbarBtnBack{
     display: none;
 }
-.navSearchInput, .navSearchSubmit, .navToolbarBtn{
+.navSearchInput, .navSearchSubmit{
+    height: 4vh;
+    border: none; 
+}
+.navToolbarBtn{
     border: none; 
     height: 3vh;
 }
@@ -39,12 +45,14 @@ nav{
 /* Header Style */
 .backgroundHeaderNav{
     background-image: url(../headerNavImg/back_header.jpeg);
-    height: 30vh;
+    height: 32vh;
     display: block;
 }
 header{
+    font-family: "JetBrains Mono", monospace;
+    color: white;
     height: 25vh;
-    background-color: rgba(255, 255, 255, 0.171);
+    background-color: #7BB172;
 }
 header a{
     background-image: url(../headerNavImg/Logo\ -\ Saturno.png);
@@ -55,17 +63,20 @@ header a{
 
 /* Nav Style */
 nav{
-    height: 5vh;
+    height: 7vh;
     background-color: rgba(0, 0, 0, 0.527);
+    background-color: #598D4C;
 }
 nav .navLinks{
-    width: 40vw;
+    width: 20vw;
     margin-left: 4cqmin;
 }
 nav .navLinks a{
     color: rgb(236, 236, 236);
     text-decoration: none;
     margin-right: 2vw;
+    font-size: 3cqmin;
+    font-family: "JetBrains Mono", monospace;
 }
 nav .navSearch{
     margin-right: 4cqmin;

@@ -14,7 +14,8 @@ main{
 }
 
 .homeMainArticleText{
-    width: 50%;
+    width: 60%;
+    padding: 0 0 0 2vw;
     color: black;
 }
 .homeMainArticleText h1{
@@ -25,7 +26,6 @@ main{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .homeMainArticleCarrossel{
-    background-color: aqua;
-    width: 50%;
+    width: 40%;
     aspect-ratio: 16/9;
 }
