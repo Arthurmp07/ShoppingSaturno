@@ -1,0 +1,31 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #517D5D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homeMainArticle{
+    display: flex;
+    margin: 2vh 4cqmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.homeMainArticleText{
+    width: 60%;
+    padding: 0 0 0 2vw;
+    color: black;
+}
+.homeMainArticleText h1{
+    margin-bottom: 1cqmin;
+}
+.homeMainArticleText p{
+    text-indent: 3cqmin;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.homeMainArticleCarrossel{
+    width: 40%;
+    aspect-ratio: 16/9;
+}
