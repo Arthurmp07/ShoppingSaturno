@@ -1,31 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 main{
     width: 100vw;
-    height: 100vh;
-    background: #517D5D;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.homeMainArticle{
+article{
     display: flex;
-    margin: 2vh 4cqmin;
+    align-items: center;
+    flex-direction: column;
+    background: #D7EED5;
+}
+
+.homeMainArticle{
+    margin-top: 4cqmin;
+    margin-bottom: 4cqmin;
+    width: 95%;
+    display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .homeMainArticleText{
     width: 60%;
     padding: 0 0 0 2vw;
-    color: black;
 }
 .homeMainArticleText h1{
     margin-bottom: 1cqmin;
+    color: #385730;
+    font-family: "JetBrains Mono", monospace;
 }
+
 .homeMainArticleText p{
     text-indent: 3cqmin;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #172B1A;
+    margin-bottom: 2vh;
 }
 .homeMainArticleCarrossel{
     width: 40%;
     aspect-ratio: 16/9;
+}
+
+.mainLinks{
+    background-color: #598D4C;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainLinksCard{
+    margin: 4cqmin 0 ;
+    width: 25vw;
+    aspect-ratio: 16/13;
+    text-decoration: none;
+}
+.mainLinksCard img{
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.mainLinksCard h1{
+    color: #C6EEBC;
+    font-family: "JetBrains Mono", monospace;
+}
+.mainLinksCard p{
+    color: #D7FFCE;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homeMainArticleTextInverted{
+    padding: 0 2vw 0 0;
 }

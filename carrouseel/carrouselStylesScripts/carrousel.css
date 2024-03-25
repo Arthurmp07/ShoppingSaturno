@@ -12,11 +12,11 @@
     height: 1vh;
 }
 .carroselImgs::-webkit-scrollbar-thumb {
-    background: rgb(57, 185, 53);
+    background: #598D4C;
     border-radius: 10px;
 }
 .carroselImgs::-webkit-scrollbar-track {
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 10px;
 }
 .carroselImgs > .carroselImg {
@@ -79,5 +79,21 @@
     background-image:url(https://picsum.photos/id/1011/400/300);
 }
 #carroselImg5{
+    background-image:url(https://picsum.photos/id/199/400/300);
+}
+
+#carrosel2Img1{
+    background-image:url(https://picsum.photos/id/423/400/300);
+}
+#carrosel2Img2{
+    background-image:url(https://picsum.photos/id/235/400/300);
+}
+#carrosel2Img3{
+    background-image:url(https://picsum.photos/id/124/400/300);
+}
+#carrosel2Img4{
+    background-image:url(https://picsum.photos/id/1011/400/300);
+}
+#carrosel2Img5{
     background-image:url(https://picsum.photos/id/199/400/300);
 }
