@@ -1,17 +1,9 @@
-<header>
-        <div class="header-content">
-            <h1><a href="index.php">𝟑𝐃-𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐋𝐚𝐛</a></h1>
-        </div>
-    </header>
-
-    
-
-    <link rel="stylesheet" href="style.css">
-
+<?php
+include_once 'header.php';
+?>
 <body>
-
-   <!-- headerNav -->
-   <span class="backgroundHeaderNav">
+<!-- headerNav -->
+    <span class="backgroundHeaderNav">
         <header>
             <a href="index.html"></a>
             <h1>SLOGAN</h1>
@@ -22,7 +14,7 @@
                 <button class="navToolbarBtnBack"></button>
                 <section class="navLinks">
                     <a href="index.html">Home</a>
-                    <a href="bancodedadoslogin/cadastro.php">Projeto</a>
+                    <a href="foms1v.php">Projeto</a>
                     <a href="#">Artigos</a>
                 </section>
             </span>
@@ -84,11 +76,5 @@
         </article>
     </main>
 <!-- main - End -->
-
-    <script>
-    alert("Login efetuado com sucesso!")
-    alert("Clique ok para ser direcionado a página inicial!")
-    </script>
 </body>
-
 </html>
