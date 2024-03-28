@@ -104,7 +104,7 @@ nav .navSearch  .navSearchSubmit{
 /* Nav Interaction styles */
 nav .navSearch .navSearchInput:focus{
     outline: 0;
-    border: solid 3px rgb(70, 173, 70);
+    border: solid 2px rgb(70, 173, 70);
     width: 15vw;
 }
 nav .navLinks a:hover{
