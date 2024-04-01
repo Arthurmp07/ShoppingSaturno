@@ -5,7 +5,8 @@ include_once 'header.php';
 <!-- headerNav -->
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="headerNav/headernavstylesscripts/headerNav.css">
-<link rel="stylesheet" href="carrousel/carrouselStylesScripts/carrousel.css">
+<link rel="stylesheet" href="carrouseel/carrouselStylesScripts/carrousel.css">
+<link rel="stylesheet" href="main/main.css">
     
 <!-- headerNav - End -->
 <!-- main -->

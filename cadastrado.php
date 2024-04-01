@@ -1,8 +1,10 @@
-<?php
-include_once 'header.php';
-?>
+
+
 <body>
-<!-- headerNav -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="headerNav/headernavstylesscripts/headerNav.css">
+<link rel="stylesheet" href="carrouseel/carrouselStylesScripts/carrousel.css">
+<link rel="stylesheet" href="main/main.css">
     <span class="backgroundHeaderNav">
         <header>
             <a href="index.html"></a>

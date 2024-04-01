@@ -1,6 +1,4 @@
-<?php
-include_once 'header.php';
-?>
+
 <body>
 <!-- headerNav -->
     <span class="backgroundHeaderNav">
@@ -13,8 +11,8 @@ include_once 'header.php';
                 <button class="navToolbarBtn"></button>
                 <button class="navToolbarBtnBack"></button>
                 <section class="navLinks">
-                    <a href="index.html">Home</a>
-                    <a href="#">Projeto</a>
+                    <a href="index.php">Home</a>
+                    <a href="forms1v.php">Projeto</a>
                     <a href="#">Artigos</a>
                 </section>
             </span>

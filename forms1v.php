@@ -1,28 +1,51 @@
 <?php
 include_once 'header.php';
 ?>
-
-<body class="bodyform">
-    <div class="page">
-        <form method="POST" class="formLogin">
-            <h1>Login</h1>
-            <p>Digite os seus dados de acesso no campo abaixo.</p>
-            <div class="form-group">
-                <label for="nome">Nome:</label>
-                <input type="text" class="form-control" id="nome" name="nome" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="telefone">Telefone:</label>
-                <input type="text" class="form-control" id="telefone" name="telefone" required>
-            </div>
-            <a href="/">Esqueci minha senha</a>
-            <input type="submit" value="Acessar" class="btn" />
-        </form>
-    </div>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="headerNav/headernavstylesscripts/headerNav.css">
+<link rel="stylesheet" href="carrouseel/carrouselStylesScripts/carrousel.css">
+<link rel="stylesheet" href="main/main.css">
+<link rel="stylesheet" href="cadastro.css">
+   
+        <!--FORMULÁRIO DE CADASTRO-->
+        <div class="content">   
+        <div id="login">
+          <form method="POST" action="processa_login.php"> 
+            <h1>Login</h1> 
+             
+            
+           
+            <p> 
+              <label for="email">Seu e-mail</label>
+              <input id="email" name="email" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+            </p>
     
+             
+            <p> 
+              <label for="senha">Sua senha</label>
+              <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
+            </p>
+             
+            <p> 
+          
+              <input type="submit" name="submit"  value="Login"/> 
+            </p>
+             
+            <p class="link">  
+              Não possui conta?
+              <a href="Cadastro.php"> Ir para Cadastro </a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>  
+    
+</main>
+    <footer>
+        - &copy; 2023 - Data
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

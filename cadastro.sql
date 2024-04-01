@@ -31,7 +31,8 @@ CREATE TABLE `cadastro` (
   `id` int(11) NOT NULL,
   `nome` int(255) DEFAULT NULL,
   `email` int(255) DEFAULT NULL,
-  `telefone` int(20) NOT NULL
+  `telefone` int(20) NOT NULL,
+  `senha` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
