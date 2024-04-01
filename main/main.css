@@ -13,6 +13,7 @@ article{
     align-items: center;
     flex-direction: column;
     background: #D7EED5;
+    width: 100vw;
 }
 
 .homeMainArticle{
@@ -86,10 +87,11 @@ article{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 15vw;
+    font-size: 1.5vw;
     background-color: #598D4C;
     border-radius: 30px;
-    aspect-ratio: 4/1;
+    aspect-ratio: 6/1;
 }
 .mainLeiaMais{
     width: 100vw;
@@ -101,8 +103,9 @@ article{
     border-radius: 20px;
     color: #C6EEBC;
     aspect-ratio: 3/1;
-    width: 200px;
+    width: 20vw;
     display: flex;
+    font-size: 2vw;
     justify-content: center;
     align-items: center;
     margin-left: 2vw;
