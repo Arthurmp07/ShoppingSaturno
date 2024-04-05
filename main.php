@@ -1,50 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./imgs/Logo - Saturno.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <!-- Links & Scripts / headerNav -->
-    <link rel="stylesheet" href="headerNav/headerNavStylesScripts/headerNav.css">
-    <script defer src="headerNav/headerNavStylesScripts/headerNav.js"></script>
-    <!-- Links & Scripts / headerNav - End -->
-    <!-- main -->
-    <link rel="stylesheet" href="./main/main.css">
-    <link rel="stylesheet" href="./carrouseel/carrouselStylesScripts/carrousel.css">
-    <!-- main - End -->
-        <!-- main -->
-        <link rel="stylesheet" href="./Footer/footer.css">
-        <!-- main - End -->
-    <title>Saturno</title>
-</head>
-<body>
-<!-- headerNav -->
-    <span class="backgroundHeaderNav">
-        <header>
-            <a href="index.html"></a>
-        </header>
-        <nav class="headerNav">
-            <span class="backgroundNavMobile">
-                <button class="navToolbarBtn"></button>
-                <button class="navToolbarBtnBack"></button>
-                <section class="navLinks">
-                    <a href="index.html">Home</a>
-                    <a href="#">Projeto</a>
-                    <a href="#">Artigos</a>
-                </section>
-            </span>
-            <section class="navSearch">
-                <form action="" class="navSearchForm">
-                    <input type="search" name="" class="navSearchInput">
-                    <button type="submit" class="navSearchSubmit"></button>
-                </form>
-            </section>
-        </nav>
-    </span>
-<!-- headerNav - End -->
 <!-- main -->
-    <main>
+<main>
         <article>
             <div class="homeMainArticle">
               <div class="homeMainArticleCarrossel">
@@ -182,22 +137,3 @@
         </section>
     </main>
 <!-- main - End -->
-<!-- footer -->
-    <footer>
-      <div class="footerTeamLinks">
-        <a href=""><img src="./headerNav/headerNavImg/Logo - Saturno.png" alt=""></a>
-        <span class="footerBar"></span>
-        <div class="footerInformations">
-          <p>GITHUB</p>
-          <p>GITHUB</p>
-          <p>GITHUB</p>
-          <p>GITHUB</p>
-        </div>
-      </div>
-      <span class="footerSenacDiv">
-        <img class="footerSenac" src="./headerNav/headerNavImg/Logo - Saturno.png" alt="">
-      </span>
-    </footer>
-<!-- footer - End -->
-</body>
-</html>
