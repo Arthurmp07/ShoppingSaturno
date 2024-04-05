@@ -136,3 +136,48 @@ article{
     font-size: 2cqmin;
     font-family: "Montserrat", sans-serif;
 }
+
+@media (max-width:700px){
+    .homeMainArticle{
+        flex-direction: column;
+    }
+    .homeMainArticleCarrossel{
+        width: 100%;
+    }
+    .homeMainArticleText{
+        width: 100%;
+    }
+    .homeMainArticleText h1{
+        margin-top: 5cqmin;
+        font-size: 4cqmin;
+    }
+    .homeMainArticleText p{
+        font-size: 3cqmin;
+    }
+    .mainLinks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainLinksCard{
+        width: 90%;
+    }
+    .mainLinksCard h1{
+        font-size: 5cqmin;
+    }
+    .mainLinksCard p{
+        font-size: 4cqmin;
+    }
+    .mainLeiaMaisArticle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainLeiaMaisArticle img{
+        width: 90%;
+    }
+    .mainLeiaMaisArticle div{
+        width: 90vw;
+    }
+    .mainLeiaMaisArticle H2{
+        margin-top: 3cqmin;
+    }
+}
