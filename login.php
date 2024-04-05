@@ -1,8 +1,11 @@
 <?php
 include_once 'header.php';
 ?>
-
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="headerNav/headernavstylesscripts/headerNav.css">
+<link rel="stylesheet" href="carrouseel/carrouselStylesScripts/carrousel.css">
+<link rel="stylesheet" href="main/main.css">
+<link rel="stylesheet" href="cadastro.css">
 
 <body>
     <main>
@@ -40,8 +43,6 @@ include_once 'header.php';
     </main>
     <script src="script.js"></script>
     
-    <?php
-include_once 'footer.php';
-?>
+  
 </body>
 
