@@ -10,6 +10,7 @@
                 <a href="index.html">Home</a>
                 <a href="#">Projeto</a>
                 <a href="#">Artigos</a>
+                <a href="cadastro.php">Cadastro</a>
             </section>
         </span>
         <section class="navSearch">

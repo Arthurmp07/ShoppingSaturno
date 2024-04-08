@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php';
+include_once 'headerNav.php';
 ?>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="headerNav/headernavstylesscripts/headerNav.css">
