@@ -3,15 +3,15 @@
         <article>
             <div class="homeMainArticle">
               <div class="homeMainArticleCarrossel">
-                    <div class="carrosel">
-                        <div class="carroselImgs">
+                    <div class="carrosel" >
+                        <div class="carroselImgs" id="mainCarrousel1">
                           <div class="carroselImg" id="carroselImg1"> 
                             <div class="carroselBtns">
                               <a href="#carroselImg5" class="carroselBack"></a>
                               <a href="#carroselImg2" class="carroselNext"></a>
                             </div>
                           </div>
-                          <div class="carroselImg" id="carroselImg2"> 
+                          <div for="carroselImg2" class="carroselImg" id="carroselImg2"> 
                             <div class="carroselBtns">
                               <a href="#carroselImg1" class="carroselBack"></a>
                               <a href="#carroselImg3" class="carroselNext"></a>

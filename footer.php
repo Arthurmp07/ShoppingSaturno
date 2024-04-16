@@ -11,7 +11,7 @@
         </div>
       </div>
       <span class="footerSenacDiv">
-        <img class="footerSenac" src="./headerNav/headerNavImg/Logo - Saturno.png" alt="">
+        <img class="footerSenac" src="./Footer/footerImgs/senac.png" alt="">
       </span>
     </footer>
 <!-- footer - End -->

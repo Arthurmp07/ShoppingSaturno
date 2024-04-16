@@ -48,8 +48,14 @@ footer a img{
     height: 100%;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .footerSenac{
-    height: 90%;
-    margin-right: 2vw;
+    height:40%;
+    margin-right: 5vw;
+}
+@media (max-width:700px){
+.footerInformations, .footerBar{
+    display: none;
+}
 }

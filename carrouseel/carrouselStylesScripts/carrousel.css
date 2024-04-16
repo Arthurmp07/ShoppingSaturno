@@ -15,10 +15,6 @@
     background: rgb(57, 185, 53);
     border-radius: 10px;
 }
-.carroselImgs::-webkit-scrollbar-track {
-    background-color: rgba(0, 0, 0, 0.26);
-    border-radius: 10px;
-}
 .carroselImgs > .carroselImg {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -39,14 +35,14 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.carroselBack{
+.carroselBack:hover{
     background-image: url(../carrouselImg/backBtn.png);
 }
-.carroselNext{
+.carroselNext:hover{
     background-image: url(../carrouselImg/nextBtn.png);
 }
 .carroselBack:hover , .carroselNext:hover{
-    background-color: rgba(255, 255, 255, 0.459);
+    background-color: rgba(255, 255, 255, 0.486);
     border-radius: 100%;
 }
 /* Back and Next Buttons - End */
@@ -80,4 +76,27 @@
 }
 #carroselImg5{
     background-image:url(https://picsum.photos/id/199/400/300);
+}
+
+#carrosel2Img1{
+    background-image:url(https://picsum.photos/id/423/400/300);
+}
+#carrosel2Img2{
+    background-image:url(https://picsum.photos/id/235/400/300);
+}
+#carrosel2Img3{
+    background-image:url(https://picsum.photos/id/124/400/300);
+}
+#carrosel2Img4{
+    background-image:url(https://picsum.photos/id/1011/400/300);
+}
+#carrosel2Img5{
+    background-image:url(https://picsum.photos/id/199/400/300);
+}
+
+
+@media(max-width:700px){
+    .carroselBtns{
+        display: none;
+    }
 }

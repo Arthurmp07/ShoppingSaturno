@@ -172,12 +172,33 @@ article{
         align-items: center;
     }
     .mainLeiaMaisArticle img{
-        width: 90%;
+        width: 96%;
     }
     .mainLeiaMaisArticle div{
         width: 90vw;
     }
     .mainLeiaMaisArticle H2{
         margin-top: 3cqmin;
+    }
+    .homeMainArticleSaibaMais{
+        width: 100%;
+        aspect-ratio: 10/1;
+        font-size: 5cqmin;
+        margin-bottom: 3vh;
+    }
+    .mainLeiaMais h1{
+        font-size: 7cqmin;
+        width: 96%;
+        aspect-ratio: 5/1;
+        margin-bottom: 2vh;
+    }
+    .mainLeiaMaisArticle div{
+        width: 95vw;
+    }
+    .mainLeiaMaisArticle div h2{
+        font-size: 4cqmin; 
+    }
+    .mainLeiaMaisArticle div p{
+        font-size: 3cqmin; 
     }
 }

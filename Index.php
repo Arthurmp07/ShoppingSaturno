@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="headerNav/headerNavStylesScripts/headerNav.css">
     <script defer src="headerNav/headerNavStylesScripts/headerNav.js"></script>
     <!-- Links & Scripts / headerNav - End -->
-    <!-- main -->
+    <!-- Links & Scripts / main -->
     <link rel="stylesheet" href="./main/main.css">
     <link rel="stylesheet" href="./carrouseel/carrouselStylesScripts/carrousel.css">
-    <!-- main - End -->
-        <!-- main -->
-        <link rel="stylesheet" href="./Footer/footer.css">
-        <!-- main - End -->
+    <!-- Links & Scripts / main - End -->
+    <!-- Links & Scripts / footer -->
+    <link rel="stylesheet" href="./Footer/footer.css">
+    <!-- Links & Scripts / footer - End -->
     <title>Saturno</title>
     </head>
     <body>    
