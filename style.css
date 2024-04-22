@@ -5,3 +5,99 @@
 body{
     overflow-x: hidden;
 }
+body::-webkit-scrollbar{
+    width: 0.2vw;
+}
+
+#mainLeiaMaisArtigos{
+    margin-top: 5cqmin; 
+}
+#mainLeiaMaisArtigos .mainLeiaMaisArticle div, #mainLeiaMaisArtigos2 .mainLeiaMaisArticle div{
+    width: 74vw;
+}
+#mainLeiaMaisArtigos h1, #mainLeiaMaisArtigos2 h1{
+    font-size: 3cqmin;
+    width: 350px;
+    height: 7vh;
+    border-radius: 10px;
+}
+#mainLeiaMaisArtigos2{
+    padding-top: 5cqmin;
+}
+#mainLeiaMaisArtigos2{
+    background-color: #598D4C;
+}
+#mainLeiaMaisArtigos2 h1{
+    background-color: #D7EED5;
+    color: #385730;
+}
+#mainLeiaMaisArtigos2 p,#mainLeiaMaisArtigos2 h2 {
+    color: #D7FFCE;
+}
+
+.demonstracoesUnity{
+    width: 100vw;
+    background: #D7EED5;
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0 ;
+}
+.demonstracoesUnity3d{
+    background-color: black;
+    width:96vw;
+    aspect-ratio: 16/6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#demonstracoesArticleH1{
+    font-family: "JetBrains Mono", monospace;
+    background-color: #598D4C;
+    padding: 3cqmin 6cqmin;
+    border-radius: 10px;
+    color: #C6EEBC;
+    align-self: flex-start;
+    margin-left: 4cqmin;
+}
+#demonstracoesArticle .homeMainArticle{
+    width: fit-content;
+    padding: 0 4cqmin;
+}
+
+.demonstracoesExemplosFotos{
+    background-color: #598D4C;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.demonstracoesExemplosFotos h1{
+    margin-top: 4vh;
+    font-family: "JetBrains Mono", monospace;
+    color: #C6EEBC;
+}
+.demonstracoesExemplosFotos .demonstracoesCarrossel{
+    margin-top: 4vh;
+    width: 70vw;
+    aspect-ratio: 16/9;
+    margin-bottom: 4vh;
+}
+.demonstracoesExemplosFotos .demonstracoesCarrossel .homeMainArticleCarrossel{
+    width: 100%;
+}
+
+
+@media (max-width:700px){
+    #mainLeiaMaisArtigos h1,  #mainLeiaMaisArtigos2 h1{
+        font-size: 3cqmin;
+        width: 96vw;
+        height: 7vh;
+        border-radius: 10px;
+    }
+    #mainLeiaMaisArtigos .mainLeiaMaisArticle{
+        margin-left: 0;
+    }
+}

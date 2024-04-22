@@ -95,7 +95,7 @@ nav .navLinks a{
     font-family: "JetBrains Mono", monospace;
 }
 nav .navSearch{
-    margin-right: 2cqmin;
+    margin-right: 4cqmin;
 }
 nav .navSearch .navSearchInput{
     width: 10vw;
