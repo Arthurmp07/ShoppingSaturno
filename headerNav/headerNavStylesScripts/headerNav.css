@@ -39,6 +39,20 @@ nav{
 .navToolbarBtn{
     border: none; 
     height: 3vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    color: rgba(255, 255, 255, 0.877);
+}
+#navCheck{
+    display: none;
+}
+.navAbas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
 }
 /* Header Nav General Styles - End */
 
@@ -81,7 +95,7 @@ nav .navLinks a{
     font-family: "JetBrains Mono", monospace;
 }
 nav .navSearch{
-    margin-right: 4cqmin;
+    margin-right: 2cqmin;
 }
 nav .navSearch .navSearchInput{
     width: 10vw;
@@ -121,34 +135,66 @@ nav .navToolbarBtn:hover{
 nav .navToolbarBtn{
     height: 4vh;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url(../headerNavImg/Toolbar\ -\ Light.png);
     border-radius: 30px;
-    margin-left: 4cqmin;
-}
-.navToolbarBtnBack{
-    width:15vw;
-    position: absolute;
-    top: 5cqmin;
-    left: 5cqmin;
-    border: none;
-    background-image: url(../headerNavImg/Back.png);
-    background-color: rgba(255, 255, 255, 0);
+    margin-left: 2cqmin;
 }
 /* Header Nav Default Style - End */
 
+
+.navAbasMenu{
+    display: none;
+}
 @media (max-width:700px){
 /* Header Nav Mobile Style / Hidden Items */
+    .navAbasMenu{
+        display: flex;
+        width: 100vw;
+        background-color: #598D4C;
+        justify-content: space-between;
+        align-items: center;
+        height: 4vh;
+    }
+    .navAbasMenuLabel{
+        margin-left: 2cqmin;
+        color: rgba(255, 255, 255, 0.877);
+    }
+    .navAbas{
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        left: -100vw;
+    }
     nav .navLinks{
-        display: none;
+        background-color: #D7EED5;
+        height: 96vh;
+        width: 100vw;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 5cqmin;
+    }
+    nav .navLinks a{
+        color: #385730;
+        font-size: 8cqmin;
     }
     header{
         justify-content: center;
     }
+
+    #navCheck:checked ~ .navAbas{
+        left: 0;
+    }
+
 /* Header Nav Mobile Style / Hidden Items - End */
 
 /* Header Nav Mobile Style / Show Items */
 nav .navToolbarBtn{
-    display: block;
+    display: flex;
 }
 /* Header Nav Mobile Style / Show Items - End */
 
