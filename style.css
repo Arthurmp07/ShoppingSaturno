@@ -89,6 +89,46 @@ body::-webkit-scrollbar{
     width: 100%;
 }
 
+.empresasExemplos{
+    background-color: #598D4C;
+    width: 100vw;
+    height: 70vh;
+    padding-bottom: 3vh;
+}
+.empresasExemplosBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.empresasExemplosBox h1{
+    font-family: "JetBrains Mono", monospace;
+    margin-top: 2cqmin;
+    color: #C6EEBC;
+    margin-bottom: 2cqmin;
+}
+.empresasExemplosLinksRow{
+    margin-bottom: 1px;
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.empresasExemplosLinks, .empresasExemplosShow {
+    background-color: black;    
+    height: 18vh;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    display: block;
+}
+.empresasExemplosLinksRow  > .empresasExemplosLinks:hover ~ .empresasExemplosShow{
+    background-color: white;
+}
+.locaisExemplos{
+    height: 50vh;
+    width: 100vw;
+    background-color: #D7EED5;
+}
 
 @media (max-width:700px){
     #mainLeiaMaisArtigos h1,  #mainLeiaMaisArtigos2 h1{
