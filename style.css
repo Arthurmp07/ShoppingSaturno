@@ -92,7 +92,7 @@ body::-webkit-scrollbar{
 .empresasExemplos{
     background-color: #598D4C;
     width: 100vw;
-    height: 70vh;
+    height: 95cqmin;
     padding-bottom: 3vh;
 }
 .empresasExemplosBox{
@@ -104,30 +104,54 @@ body::-webkit-scrollbar{
     font-family: "JetBrains Mono", monospace;
     margin-top: 2cqmin;
     color: #C6EEBC;
-    margin-bottom: 2cqmin;
+    margin-bottom: 4cqmin;
 }
 .empresasExemplosLinksRow{
     margin-bottom: 1px;
-    height: 20vh;
-    width: 30vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 25cqmin 25cqmin 25cqmin;
+    grid-template-rows: 25cqmin 25cqmin 25cqmin;
+    gap: 2cqmin;
 }
-.empresasExemplosLinks, .empresasExemplosShow {
+.empresasExemplosLinks{
     background-color: black;    
-    height: 18vh;
+    height: 25cqmin;
     aspect-ratio: 1/1;
     border-radius: 100%;
-    display: block;
 }
-.empresasExemplosLinksRow  > .empresasExemplosLinks:hover ~ .empresasExemplosShow{
+.empresasExemplosShow{ 
+    height: 25cqmin;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.empresasExemplosLinks:hover ~ .empresasExemplosShow{
     background-color: white;
 }
 .locaisExemplos{
-    height: 50vh;
+    height: 75vh;
     width: 100vw;
     background-color: #D7EED5;
+}
+.locaisExemplos h1{
+    font-family: "JetBrains Mono", monospace;
+    margin-top: 2cqmin;
+    color: #385730;
+    margin-bottom: 2cqmin;
+    margin-left: 5cqmin;
+}
+.locaisExemplos .locaisExemplosCarrousel{
+    height: 60vh;
+    margin-left: 5cqmin;
+    display: grid;
+    gap: 4cqmin;
+    grid-template-rows: 50%;
+}
+.locaisExemplos .locaisExemplosCarrousel .locaisExemplosLink{
+    background-color: black;
+    height: 10vh;
+    aspect-ratio: 16/9;
 }
 
 @media (max-width:700px){
