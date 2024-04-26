@@ -92,7 +92,7 @@ body::-webkit-scrollbar{
 .empresasExemplos{
     background-color: #598D4C;
     width: 100vw;
-    height: 95cqmin;
+    height: 75cqmin;
     padding-bottom: 3vh;
 }
 .empresasExemplosBox{
@@ -109,31 +109,58 @@ body::-webkit-scrollbar{
 .empresasExemplosLinksRow{
     margin-bottom: 1px;
     display: grid;
-    grid-template-columns: 25cqmin 25cqmin 25cqmin;
-    grid-template-rows: 25cqmin 25cqmin 25cqmin;
+    grid-template-columns: 20cqmin 20cqmin 20cqmin;
+    grid-template-rows: 20cqmin 20cqmin 20cqmin;
     gap: 2cqmin;
 }
 .empresasExemplosLinks{
-    background-color: black;    
-    height: 25cqmin;
+    background-color: #598D4C;    
+    height: 20cqmin;
     aspect-ratio: 1/1;
     border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    border: solid 1px black;
+    opacity: 50%;
+    transition: all .5s;
+}
+.empresasExemplosLinks:hover{
+    opacity: 100%;
 }
 .empresasExemplosShow{ 
-    height: 25cqmin;
+    height: 20cqmin;
     aspect-ratio: 1/1;
     border-radius: 100%;
     grid-row: 2/3;
     grid-column: 2/3;
+    color: #ffffff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s;
 }
 .empresasExemplosLinks:hover ~ .empresasExemplosShow{
-    background-color: white;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.507);
 }
 .locaisExemplos{
-    height: 75vh;
+    height: 40vh;
     width: 100vw;
     background-color: #D7EED5;
 }
+.locaisExemplos::-webkit-scrollbar{
+    height: 1vh;
+}
+.locaisExemplos::-webkit-scrollbar-thumb{
+    background: #598D4C;
+    border-radius: 10px;
+}
+
 .locaisExemplos h1{
     font-family: "JetBrains Mono", monospace;
     margin-top: 2cqmin;
@@ -142,16 +169,27 @@ body::-webkit-scrollbar{
     margin-left: 5cqmin;
 }
 .locaisExemplos .locaisExemplosCarrousel{
-    height: 60vh;
     margin-left: 5cqmin;
     display: grid;
     gap: 4cqmin;
-    grid-template-rows: 50%;
+    grid-template-rows: 30vh;
+    grid-template-columns: repeat(10,auto);
+    overflow-x: scroll;
+}
+.locaisExemplos .locaisExemplosCarrousel::-webkit-scrollbar-thumb {
+    display: none;
 }
 .locaisExemplos .locaisExemplosCarrousel .locaisExemplosLink{
     background-color: black;
-    height: 10vh;
+    height: 100%;
     aspect-ratio: 16/9;
+    border-radius: 2cqmin;
+}
+.locaisExemplosLinkImg{
+    height: 100%;
+    aspect-ratio: 16/9;
+    image-resolution: 1920/1080;
+    border-radius: 2cqmin;
 }
 
 @media (max-width:700px){
