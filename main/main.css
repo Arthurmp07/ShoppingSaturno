@@ -24,9 +24,8 @@ article{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.homeMainArticleText{
-    
-    width: 60%;
+.homeMainArticleText{    
+    width: 70%;
     padding: 0 0 0 2vw;
 }
 .homeMainArticleText h1{
@@ -38,14 +37,14 @@ article{
 
 .homeMainArticleText p{
     text-indent: 3cqmin;
-    font-size:0.8vw;
+    font-size:1.1vw;
     font-family: "JetBrains Mono", monospace;
     color: #172B1A;
     margin-bottom: 2vh;
 }
 .homeMainArticleCarrossel{
-    width: 40%;
-    aspect-ratio: 16/9;
+    width: 30%;
+    aspect-ratio: 1/1;
 }
 
 .mainLinks{
@@ -73,7 +72,7 @@ article{
 .mainLinksCard p{
     color: #D7FFCE;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:0.8vw;
+    font-size:1vw;
 }
 
 .homeMainArticleTextInverted{
@@ -152,7 +151,7 @@ article{
         font-size: 4cqmin;
     }
     .homeMainArticleText p{
-        font-size: 3cqmin;
+        font-size: 10cqmin;
     }
     .mainLinks{
         flex-direction: column;
