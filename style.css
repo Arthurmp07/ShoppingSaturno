@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.linkNoDecoration{
+    text-decoration: none;
+    color: black;
+}
 body{
     overflow-x: hidden;
 }
