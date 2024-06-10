@@ -1,3 +1,12 @@
 article p {
-    text-indent: 5cqmin
+    text-indent: 5cqmin;
+}
+article{
+    font-family: "JetBrains Mono", monospace;
+}
+
+article h2{
+    align-self: self-start; 
+    margin-bottom: 1vh;
+    margin-top: 2vh;
 }
