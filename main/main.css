@@ -155,7 +155,7 @@ article{
         font-size: 4cqmin;
     }
     .homeMainArticleText p{
-        font-size: 10cqmin;
+        font-size: 3cqmin;
     }
     .mainLinks{
         flex-direction: column;
@@ -173,6 +173,7 @@ article{
     .mainLeiaMaisArticle{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .mainLeiaMaisArticle img{
         width: 96%;

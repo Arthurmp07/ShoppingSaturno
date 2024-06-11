@@ -213,7 +213,7 @@ body::-webkit-scrollbar{
 }
 
 @media (max-width:700px){
-    #mainLeiaMaisArtigos h1,  #mainLeiaMaisArtigos2 h1{
+    #mainLeiaMaisArtigos h1,  #mainLeiaMaisArtigos2 h1 {
         font-size: 3cqmin;
         width: 96vw;
         height: 7vh;
@@ -222,7 +222,11 @@ body::-webkit-scrollbar{
     #mainLeiaMaisArtigos .mainLeiaMaisArticle{
         margin-left: 0;
     }
-    
+    .linkNoDecorationimgArtigos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media (max-width:1100px){
     .empresasExemplos{
@@ -253,5 +257,12 @@ body::-webkit-scrollbar{
     }
     .locaisExemplosLinkImg, .empresasExemplosLinks  {
         opacity: 100%;
+    }
+    #mainLeiaMaisArtigos .mainLeiaMaisArticle div, #mainLeiaMaisArtigos2 .mainLeiaMaisArticle div{
+        width: 95%;
+        margin-left: 0;
+    }
+    .mainLeiaMaisArticle div{
+        margin-left: 0;
     }
 }
