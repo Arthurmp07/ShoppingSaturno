@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.linkNoDecoration{
+    text-decoration: none;
+    color: black;
+}
+body{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    width: 0.2vw;
+}
+
+#mainLeiaMaisArtigos{
+    margin-top: 5cqmin; 
+}
+#mainLeiaMaisArtigos .mainLeiaMaisArticle div, #mainLeiaMaisArtigos2 .mainLeiaMaisArticle div{
+    width: 74vw;
+}
+#mainLeiaMaisArtigos h1, #mainLeiaMaisArtigos2 h1{
+    font-size: 3cqmin;
+    width: 350px;
+    height: 7vh;
+    border-radius: 10px;
+}
+#mainLeiaMaisArtigos2{
+    padding-top: 5cqmin;
+}
+#mainLeiaMaisArtigos2{
+    background-color: #598D4C;
+}
+#mainLeiaMaisArtigos2 h1{
+    background-color: #D7EED5;
+    color: #385730;
+}
+#mainLeiaMaisArtigos2 p,#mainLeiaMaisArtigos2 h2 {
+    color: #D7FFCE;
+}
+
+.demonstracoesUnity{
+    width: 100vw;
+    background: #D7EED5;
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0 ;
+}
+.demonstracoesUnity3d{
+    background-color: black;
+    width:96vw;
+    aspect-ratio: 16/6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#demonstracoesArticleH1{
+    font-family: "JetBrains Mono", monospace;
+    background-color: #598D4C;
+    padding: 3cqmin 6cqmin;
+    border-radius: 10px;
+    color: #C6EEBC;
+    align-self: flex-start;
+    margin-left: 4cqmin;
+}
+#demonstracoesArticle .homeMainArticle{
+    width: fit-content;
+    padding: 0 4cqmin;
+}
+
+.demonstracoesExemplosFotos{
+    background-color: #598D4C;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.demonstracoesExemplosFotos h1{
+    margin-top: 4vh;
+    font-family: "JetBrains Mono", monospace;
+    color: #C6EEBC;
+}
+.demonstracoesExemplosFotos .demonstracoesCarrossel{
+    margin-top: 4vh;
+    width: 70vw;
+    aspect-ratio: 16/9;
+    margin-bottom: 4vh;
+}
+.demonstracoesExemplosFotos .demonstracoesCarrossel .homeMainArticleCarrossel{
+    width: 100%;
+}
+
+.empresasExemplos{
+    background-color: #598D4C;
+    width: 100vw;
+    height: 75cqmin;
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.empresasExemplosBox{
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.empresasExemplosBox h1{
+    font-family: "JetBrains Mono", monospace;
+    margin-top: 2cqmin;
+    color: #C6EEBC;
+    margin-bottom: 4cqmin;
+}
+.empresasExemplosLinksRow{
+    margin-bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(7, 20cqmin);
+    grid-template-rows: repeat(3, 20cqmin);
+    gap: 2cqmin;
+}
+.empresasExemplosLinks{
+    background-color: #598D4C;    
+
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    border: solid 1px rgba(0, 0, 0, 0.466);
+    opacity: 50%;
+    transition: all .5s;
+}
+.empresasExemplosLinks:hover{
+    opacity: 100%;
+    border-radius: 10%;
+}
+.empresasExemplosShow{ 
+    border-radius: 100%;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    color: #ffffff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s;
+}
+.empresasExemplosLinks:hover ~ .empresasExemplosShow{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.locaisExemplos{
+    height: 40vh;
+    width: 100vw;
+    background-color: #D7EED5;
+    overflow-x: hidden;
+}
+.locaisExemplosCarrouselBox{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100vw;
+    display: flex;
+}
+.locaisExemplosCarrouselBox::-webkit-scrollbar{
+    height: 1vh;
+}
+.locaisExemplosCarrouselBox::-webkit-scrollbar-thumb{
+    background: #598d4c77;
+    border-radius: 10px;
+}
+
+.locaisExemplos h1{
+    font-family: "JetBrains Mono", monospace;
+    margin-top: 2cqmin;
+    color: #385730;
+    margin-bottom: 2cqmin;
+    margin-left: 5cqmin;
+}
+.locaisExemplos .locaisExemplosCarrousel{
+    margin-left: 5cqmin;
+    display: grid;
+    gap: 4cqmin;
+    grid-template-rows: 30vh;
+    grid-template-columns: repeat(10,auto);
+}
+.locaisExemplos .locaisExemplosCarrousel::-webkit-scrollbar-thumb {
+    display: none;
+}
+.locaisExemplos .locaisExemplosCarrousel .locaisExemplosLink{
+    height: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 2cqmin;
+}
+.locaisExemplosLink{
+    margin-right: 2cqmin;
+}
+.locaisExemplosLinkImg{
+    height: 99%;
+    aspect-ratio: 16/9;
+    image-resolution: 1920/1080;
+    border-radius: 2cqmin;
+    opacity: 50%;
+    transition: all .5s;
+}
+.locaisExemplosLinkImg:hover{
+    opacity: 100%;
+    border-radius: 1%;
+    border: solid 1px rgba(0, 0, 0, 0.603);
+}
+
+@media (max-width:700px){
+    #mainLeiaMaisArtigos h1,  #mainLeiaMaisArtigos2 h1 {
+        font-size: 3cqmin;
+        width: 96vw;
+        height: 7vh;
+        border-radius: 10px;
+    }
+    #mainLeiaMaisArtigos .mainLeiaMaisArticle{
+        margin-left: 0;
+    }
+    .linkNoDecorationimgArtigos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:1100px){
+    .empresasExemplos{
+        height: 60vh;
+    }
+    .empresasExemplosLinksRow{
+        margin-bottom: 1px;
+        display: grid;
+        grid-template-columns: repeat(7, 15cqmin);
+        grid-template-rows: repeat(3, 15cqmin);
+        gap: 2cqmin;
+    }
+}
+@media (max-width:800px){
+    .empresasExemplos{
+        height: 165cqmin;
+    }
+    .empresasExemplosLinksRow{
+        margin-bottom: 1px;
+        display: grid;
+        grid-template-columns: repeat(3, 20cqmin);
+        grid-template-rows: repeat(10, 20cqmin);
+        gap: 2cqmin;
+    }
+    .empresasExemplosShow{ 
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    .locaisExemplosLinkImg, .empresasExemplosLinks  {
+        opacity: 100%;
+    }
+    #mainLeiaMaisArtigos .mainLeiaMaisArticle div, #mainLeiaMaisArtigos2 .mainLeiaMaisArticle div{
+        width: 95%;
+        margin-left: 0;
+    }
+    .mainLeiaMaisArticle div{
+        margin-left: 0;
+    }
+}
