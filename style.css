@@ -242,16 +242,17 @@ body::-webkit-scrollbar{
 }
 @media (max-width:800px){
     .empresasExemplos{
-        height: 165cqmin;
+        height: 390cqmin;
     }
     .empresasExemplosLinksRow{
         margin-bottom: 1px;
         display: grid;
-        grid-template-columns: repeat(3, 20cqmin);
-        grid-template-rows: repeat(10, 20cqmin);
+        grid-template-columns: repeat(2, 35cqmin);
+        grid-template-rows: repeat(10, 35cqmin);
         gap: 2cqmin;
     }
     .empresasExemplosShow{ 
+        display: none;
         grid-row: 1/2;
         grid-column: 2/3;
     }

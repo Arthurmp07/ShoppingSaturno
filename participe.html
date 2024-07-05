@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="main/main.css">
   <link rel="stylesheet" href="Footer/footer.css">
   <link rel="shortcut icon" href="imgs/Logo - Saturno.png" type="image/x-icon">
+  <script src="bDJson/participe.json"></script>
+  <script src="bDJson/participe.js" defer></script>
   <title>Saturno</title>
 </head>
 <body>
@@ -53,15 +55,15 @@
     <form style="margin: 5vw;color:#D7EED5; background-color:#598D4C ; margin-top: 7vh; border-radius: 10px; padding: 5cqmin; margin-bottom: 40vh;" action="">
         <h1 style="margin-bottom: 2vh;">Participe do nosso projeto</h1>
         <span style="display: flex; justify-content: space-between; margin-bottom: 3vh;">
-            <p>Email:</p> <input style="width: 70%;" type="email" name="" id="">
+            <p>Email:</p> <input id="inputEmail" style="width: 70%;" type="email" name="" id="">
         </span>
         <span style="display: flex; justify-content: space-between; margin-bottom: 3vh;">
-            <p>Telefone:</p> <input style="width: 70%;" type="number" name="" id="">
+            <p>Telefone:</p> <input id="inputTelefone" style="width: 70%;" type="number" name="" id="">
         </span>
         <span style="display: flex; justify-content: space-between; margin-bottom: 3vh;">
-            <p>instagram:</p> <input style="width: 70%;" type="text" name="" id="">
+            <p>instagram:</p> <input id="inputInsta" style="width: 70%;" type="text" name="" id="">
         </span>
-        <button style="padding: 0 3vw 0 3vw;color: #598D4C; font-family:JetBrains Mono, monospace ; font-weight: bold; background-color: #D7EED5; border: none; border-radius: 10px; float: right; aspect-ratio: 10/3;" type="submit"> Enviar</button>
+        <a style="padding: 1vh 3vw;color: #598D4C; font-family:JetBrains Mono, monospace ; font-weight: bold; background-color: #D7EED5; border: none; border-radius: 10px; float: right; aspect-ratio: 10/3;" type="submit" id="participeSubmit"> Enviar</a>
     </form>
 </main>
 <!-- main - End -->
