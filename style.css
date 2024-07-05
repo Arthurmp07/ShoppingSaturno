@@ -242,7 +242,7 @@ body::-webkit-scrollbar{
 }
 @media (max-width:800px){
     .empresasExemplos{
-        height: 450cqmin;
+        height: 390cqmin;
     }
     .empresasExemplosLinksRow{
         margin-bottom: 1px;
